@@ -1,10 +1,16 @@
-// 1. 思路 搭架子，考虑一些初始化函数， init render bindEvent
-// 2. 考虑模板里面需要渲染什么 构造 tab 类 根据传入不同参数（考虑是 tab,还是 page）渲染不同的 dom 元素
-// 3. 考虑解析模板，填入不同的数据
-// 4. 考虑需要构造的 dom 结构 构造 Tpl 类渲染 tab 实例和 tab-view 实力 <!-- 这里要构造这样一个dom结构 --> 使用 document.createFragment 可以减少插入文档造成的回流
-// 5. 解析模板中的{{}} 语法替换为数据
-// 6. 绑定事件
-// 7. 添加样式
+- 1. 思路 搭架子，考虑一些初始化函数， init render bindEvent
+- 2. 考虑模板里面需要渲染什么 构造 tab 类 根据传入不同参数（考虑是 tab,还是 page）渲染不同的 dom 元素
+- 3. 考虑解析模板，填入不同的数据
+- 4. 考虑需要构造的 dom 结构 构造 Tpl 类渲染 tab 实例和 tab-view 实力 <!-- 这里要构造这样一个dom结构 --> 使用 document.createFragment 可以减少插入文档造成的回流
+- 5. 解析模板中的{{}} 语法替换为数据
+- 6. 绑定事件
+- 7. 添加样式
+
+<!--  -->
+
+#### 在线查看效果
+
+https://qiaoqiao10001.github.io/iifetab/src/index.html
 
 - 思考
 - 利用 iife（立即执行函数）封装代码
